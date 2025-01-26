@@ -1,0 +1,17 @@
+{
+  "name": "freelanceproject",
+  "version": "1.0.0",
+  "description": "Frelance Place Connect, create, and collaborate in a marketplace that turns freelance dreams into reality.",
+  "scripts": {
+    "frontend": "cd ./GigSpark-UI && npm run dev",
+    "server": "cd ./server && npm start",
+    "start": "concurrently \"npm run frontend\" \"npm run server\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
