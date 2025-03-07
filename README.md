@@ -30,7 +30,6 @@ A full-stack web application built with **Vite (React)** for the frontend and **
 
 ---
 
-## 📦 Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```sh
